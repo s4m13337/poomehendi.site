@@ -1,0 +1,103 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	width: 100%;
+	background-color: olivedrab;
+	color: cornsilk;
+	overflow: auto;
+	top: 0;
+	box-shadow: 0px 8px 10px 5px darkgrey;
+}
+
+.logo{
+	margin-left: 10px;
+	float: left;
+}
+
+.header ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.header ul li{
+	list-style: none;
+}
+
+
+.header ul li a{
+	text-decoration: none;
+	line-height: 100px;
+	margin: 10px;
+	padding: 10px;
+	font-size: 25px;
+	color: cornsilk;
+}
+
+.header ul li a:hover{
+	text-decoration: none;
+	line-height: 100px;
+	margin: 10px;
+	padding: 10px;
+	font-size: 25px;
+	color: forestgreen;
+	border-radius: 10px 0px 10px 0px;
+	background-color: khaki;
+	transition: background-color 200ms;
+}
+
+.header ul li a#current{
+	text-decoration: none;
+	line-height: 100px;
+	margin: 10px;
+	padding: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	color: forestgreen;
+	border-radius: 10px 0px 10px 0px;
+	background-color: khaki;
+}
+
+.content{
+	clear: both;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	border-style: groove;
+	border-width: 2px;
+	border-color: forestgreen;
+	border-radius: 50px 0px 50px 0px;
+	padding: 15px;
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	background-color: khaki;
+}
+
+.content h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 48px;
+}
+
+.content h3,h4{
+	font-family: 'Dancing Script', cursive;
+}
+
+.footer{
+	display: inline;
+	padding: 5px;
+	background-color: forestgreen;
+	color: cornsilk;
+	bottom: 0;
+	position: fixed;
+	text-align: center;
+}
+
